@@ -18,6 +18,9 @@ tourivo/
 └── next.config.js
 ```
 
+## Admin dashboard
+A preview admin dashboard is at **`/dashboard`** (Overview, Categories, Availability, Activities, Bookings, Reviews, Contact Requests, Suppliers, Finance, Users, Settings). It shows the full interface with real catalog data + sample operational data, ready to connect to a backend. See `DASHBOARD.md`. It is currently unsecured — protect it before launch (details in `DASHBOARD.md`).
+
 ## Content lives in `data/`
 The site reads `data/tours.json`, `categories.json`, `navigation.json`, `travel-guide.json`. To update content, edit those files (same shape as produced by the migration) and redeploy. Later you can swap this for the database in `../migration/tourivo-schema.sql` without changing the page components much.
 
