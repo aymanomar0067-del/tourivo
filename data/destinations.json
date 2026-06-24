@@ -1,0 +1,374 @@
+{
+  "destinations": [
+    {
+      "slug": "sharm-el-sheikh",
+      "name": "Sharm El Sheikh",
+      "tagline": "Red Sea Paradise",
+      "url": "/en/sharm-el-sheikh",
+      "active": true,
+      "categoryCount": 30,
+      "tourCount": 72,
+      "travelGuideCount": 31
+    },
+    {
+      "slug": "hurghada",
+      "name": "Hurghada",
+      "tagline": "Sun & Sea Adventure",
+      "url": "/en/hurghada",
+      "active": true,
+      "categoryCount": 6,
+      "tourCount": 24,
+      "travelGuideCount": 0
+    },
+    {
+      "slug": "dahab",
+      "name": "Dahab",
+      "tagline": "Bohemian Beach Escape",
+      "url": "/en/dahab",
+      "active": false,
+      "note": "Announced on homepage destination chooser but has no category/tour/sitemap entries yet."
+    }
+  ],
+  "staticPages": {
+    "about": {
+      "url": "https://sharmgate.net/en/sharm-el-sheikh/about",
+      "type": "static-about",
+      "seo": {
+        "title": "Sharm Gate",
+        "metaDescription": null,
+        "keywords": "Sharm El Sheikh,tours,activities,Egypt,snorkeling,diving,safari,travel,Red Sea,Sinai",
+        "canonical": null,
+        "ogImage": "https://sharmgate.net/og-image.jpg"
+      },
+      "body": {
+        "headings": [
+          "Discover, Explore, and Live the Magic of Egypt's Red Sea Paradise",
+          "Our Story",
+          "Our Journey in Numbers",
+          "Why Choose Us",
+          "Expert Local Guides",
+          "Best Price Guarantee",
+          "24/7 Customer Support",
+          "Get in Touch"
+        ],
+        "companyDescriptionVerbatim": "At Sharm Gate, we make it easy to design your dream getaway. Whether you're chasing adrenaline rushes, serene seaside moments, or cultural treasures, Sharm El Sheikh—The City of Peace—offers something unforgettable for every kind of traveler.\n\nOur Story\n\nFounded with a passion for showcasing the beauty of Sharm El Sheikh, Sharm Gate has grown from a small local tour operator to one of the most trusted travel partners in the Red Sea region.\n\nOur mission is simple: to create unforgettable experiences that connect travelers with the magic of Egypt's underwater paradise, rich history, and vibrant culture.",
+        "journeyInNumbers": [
+          {
+            "value": "0+",
+            "label": "Years of Experience"
+          },
+          {
+            "value": "0+",
+            "label": "Happy Customers"
+          },
+          {
+            "value": "0+",
+            "label": "Tours Completed"
+          },
+          {
+            "value": "0+",
+            "label": "Countries Served"
+          }
+        ],
+        "whyChooseUs": [
+          {
+            "title": "Expert Local Guides",
+            "text": "Our certified guides bring years of local expertise and passion to every tour, ensuring authentic experiences."
+          },
+          {
+            "title": "Best Price Guarantee",
+            "text": "We offer competitive prices without compromising on quality. Find a lower price? We'll match it."
+          },
+          {
+            "title": "24/7 Customer Support",
+            "text": "Our dedicated support team is available around the clock to assist you before, during, and after your trip."
+          }
+        ],
+        "contactForm": {
+          "intro": "Have questions? We'd love to hear from you.",
+          "fields": [
+            "Your Name",
+            "Email Address",
+            "Preferred Language",
+            "Your Message"
+          ],
+          "preferredLanguageOptions": [
+            "English",
+            "العربية",
+            "Русский",
+            "Italiano",
+            "Türkçe",
+            "Français"
+          ],
+          "submitButton": "Send Message"
+        },
+        "notes": "The 'Our Journey in Numbers' stats all render as placeholder '0+' (likely counters not animated/populated server-side). Contact form renders server-side. Company copy is generic and shared across destinations."
+      }
+    },
+    "activities": {
+      "url": "https://sharmgate.net/en/sharm-el-sheikh/activities",
+      "type": "activities-listing",
+      "seo": {
+        "title": "The Best Sharm El Sheikh Tours & Things to Do in 2026 | Sharm Gate",
+        "metaDescription": null,
+        "keywords": null,
+        "canonical": null,
+        "ogImage": null
+      },
+      "body": {
+        "headings": [
+          "Find the best Sharm Al-sheikh Experiences",
+          "Find things to do"
+        ],
+        "serverRenderedSections": [
+          "Hero heading 'Find the best Sharm Al-sheikh Experiences'",
+          "Intro paragraph",
+          "Hero image (experiencesIntro)",
+          "'100+ Reviews' badge",
+          "'Find things to do' section heading"
+        ],
+        "clientRenderedOrEmptySections": [
+          "The actual activity/tour cards under 'Find things to do' are NOT present in the server HTML — only the section heading renders; the listing grid is client-rendered (empty in fetched markup)."
+        ],
+        "paragraphs": [
+          "At Sharm Gate, we make it easy to design your dream getaway. Whether you're chasing adrenaline rushes, serene seaside moments, or cultural treasures, Sharm El Sheikh—The City of Peace—offers something unforgettable for every kind of traveler."
+        ]
+      }
+    },
+    "destinationHomes": {
+      "sharm-el-sheikh": {
+        "url": "https://sharmgate.net/en/sharm-el-sheikh",
+        "type": "destination-home",
+        "seo": {
+          "title": "Sharm El Sheikh Tours & Activities | Sharm Gate",
+          "metaDescription": null,
+          "keywords": null,
+          "canonical": null,
+          "ogImage": null
+        },
+        "body": {
+          "headings": [
+            "Popular activities",
+            "Find things to do",
+            "Limited Time Offer Book Now and Save Big!",
+            "Travel Guide",
+            "Hear from our customers how they enjoyed their trips!"
+          ],
+          "serverRenderedSections": [
+            "Hero banner image (p31.jpeg)",
+            "Section heading 'Popular activities'",
+            "Section heading 'Find things to do'",
+            "'Limited Time Offer Book Now and Save Big!' promo block with paragraph, 'Learn More' link, and 3 promo images (image3/image4/image5)",
+            "Section heading 'Travel Guide'",
+            "Section heading 'Hear from our customers how they enjoyed their trips!'"
+          ],
+          "clientRenderedOrEmptySections": [
+            "'Popular activities' — only the heading renders; the activity cards/carousel are client-rendered and empty in server HTML (note the long run of blank lines where cards would mount).",
+            "'Find things to do' — heading only; listing grid client-rendered/empty.",
+            "'Travel Guide' — heading only; guide cards client-rendered/empty.",
+            "'Hear from our customers...' (testimonials) — heading only; testimonial cards client-rendered/empty."
+          ],
+          "promoBlock": {
+            "title": "Limited Time Offer Book Now and Save Big!",
+            "text": "At Sharm Gate, we make it easy to design your dream getaway. Whether you're chasing adrenaline rushes, serene seaside moments, or cultural treasures, Sharm El Sheikh—The City of Peace—offers something unforgettable for every kind of traveler.",
+            "cta": "Learn More →"
+          }
+        }
+      },
+      "hurghada": {
+        "url": "https://sharmgate.net/en/hurghada",
+        "type": "destination-home",
+        "seo": {
+          "title": "Hurghada Tours & Activities | Sharm Gate",
+          "metaDescription": null,
+          "keywords": null,
+          "canonical": null,
+          "ogImage": null
+        },
+        "body": {
+          "headings": [
+            "Popular activities",
+            "Find things to do",
+            "Limited Time Offer Book Now and Save Big!",
+            "Travel Guide",
+            "Hear from our customers how they enjoyed their trips!"
+          ],
+          "serverRenderedSections": [
+            "Hero banner image (p31.jpeg — same asset as Sharm)",
+            "Section heading 'Popular activities'",
+            "Section heading 'Find things to do'",
+            "'Limited Time Offer Book Now and Save Big!' promo block (identical copy/images to Sharm, still references 'Sharm El Sheikh' in text)",
+            "Section heading 'Travel Guide'",
+            "Section heading 'Hear from our customers how they enjoyed their trips!'"
+          ],
+          "clientRenderedOrEmptySections": [
+            "'Popular activities' — heading only; cards client-rendered/empty.",
+            "'Find things to do' — heading only; grid client-rendered/empty.",
+            "'Travel Guide' — heading only; cards client-rendered/empty.",
+            "'Hear from our customers...' — heading only; testimonials client-rendered/empty."
+          ],
+          "promoBlock": {
+            "title": "Limited Time Offer Book Now and Save Big!",
+            "text": "At Sharm Gate, we make it easy to design your dream getaway. Whether you're chasing adrenaline rushes, serene seaside moments, or cultural treasures, Sharm El Sheikh—The City of Peace—offers something unforgettable for every kind of traveler.",
+            "cta": "Learn More →"
+          },
+          "notes": "Hurghada home is a near-identical clone of the Sharm home; promo copy and images are not localized and still mention 'Sharm El Sheikh'."
+        }
+      }
+    },
+    "privacyPolicy": {
+      "url": "https://sharmgate.net/en/privacy-policy",
+      "type": "static-legal",
+      "seo": {
+        "title": "Sharm Gate",
+        "metaDescription": null,
+        "keywords": "Sharm El Sheikh,tours,activities,Egypt,snorkeling,diving,safari,travel,Red Sea,Sinai",
+        "canonical": null,
+        "ogImage": "https://sharmgate.net/og-image.jpg"
+      },
+      "body": {
+        "headings": [
+          "Privacy Policy",
+          "1. Information We Collect",
+          "2. How We Use Your Information",
+          "3. Information Sharing",
+          "4. Data Security",
+          "5. Cookies and Tracking",
+          "6. Third-Party Services",
+          "7. Your Rights",
+          "8. Children's Privacy",
+          "9. International Data Transfers",
+          "10. Changes to This Policy",
+          "11. Contact Us"
+        ],
+        "lastUpdated": "December 2024",
+        "intro": "At Sharm Gate, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.",
+        "sections": {
+          "informationWeCollect": [
+            "Personal Information: Name, email address, phone number, and nationality",
+            "Booking Information: Travel dates, number of travelers, tour preferences, and special requirements",
+            "Payment Information: Payment card details and billing address (processed securely through PayPal)",
+            "Account Information: Username, password, and profile preferences",
+            "Communication Data: Messages, inquiries, and feedback you send to us"
+          ],
+          "howWeUseYourInformation": [
+            "Process and manage your tour bookings and reservations",
+            "Send booking confirmations, tickets, and travel updates",
+            "Provide customer support and respond to your inquiries",
+            "Send promotional offers and newsletters (with your consent)",
+            "Improve our services and user experience",
+            "Comply with legal obligations and prevent fraud"
+          ],
+          "informationSharing": [
+            "Tour Operators & Suppliers: To fulfill your bookings and provide services",
+            "Payment Processors: PayPal for secure payment processing",
+            "Service Providers: Companies that help us operate our platform",
+            "Legal Authorities: When required by law or to protect our rights",
+            "Note: We do not sell your personal information to third parties."
+          ],
+          "thirdPartyServices": [
+            "PayPal: For secure payment processing",
+            "Google Analytics: For website analytics",
+            "Firebase: For authentication and data storage",
+            "Social Media Platforms: For sharing and login features"
+          ],
+          "yourRights": [
+            "Access the personal information we hold about you",
+            "Request correction of inaccurate information",
+            "Request deletion of your personal data",
+            "Opt-out of marketing communications",
+            "Withdraw consent where applicable",
+            "Lodge a complaint with a data protection authority"
+          ],
+          "childrensPrivacy": "Our services are not intended for children under 16 years of age. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.",
+          "contact": {
+            "email": "info@sharmgate.net",
+            "phone": "+20 100 711 0067",
+            "address": "Sharm El Sheikh, South Sinai, Egypt"
+          }
+        },
+        "notes": "Full legal content renders server-side. Confirms tech stack: PayPal (payments), Firebase (auth/data), Google Analytics."
+      }
+    },
+    "homepage": {
+      "url": "https://sharmgate.net/en",
+      "type": "destination-selector",
+      "seo": {
+        "title": "Sharm Gate - Choose Your Destination | Sharm Gate",
+        "metaDescription": "Discover the best tours and activities in Egypt. Choose your city: Sharm El Sheikh, Hurghada, or Dahab.",
+        "keywords": "Sharm El Sheikh,tours,activities,Egypt,snorkeling,diving,safari,travel,Red Sea,Sinai",
+        "canonical": null,
+        "ogImage": "https://sharmgate.net/og-image.jpg"
+      },
+      "body": {
+        "headings": [
+          "Welcome to Sharm Gate",
+          "Sharm El Sheikh",
+          "Hurghada",
+          "Dahab"
+        ],
+        "subheading": "Where are you heading?",
+        "destinationCards": [
+          {
+            "name": "Sharm El Sheikh",
+            "tagline": "Red Sea Paradise",
+            "cta": "Explore"
+          },
+          {
+            "name": "Hurghada",
+            "tagline": "Sun & Sea Adventure",
+            "cta": "Explore"
+          },
+          {
+            "name": "Dahab",
+            "tagline": "Bohemian Beach Escape",
+            "cta": "Explore"
+          }
+        ],
+        "notes": "Root /en is a destination picker (no global header/footer). Lists three destinations including Dahab, which is referenced in SEO copy as a city."
+      }
+    },
+    "authPages": {
+      "login": {
+        "url": "https://sharmgate.net/en/login",
+        "type": "auth-login",
+        "result": "Page loads server-side with global header/footer but the login FORM is NOT present in the server HTML — no email/password fields render. No redirect occurs (HTTP 200, stays on /en/login). The form is client-rendered (likely Firebase auth). No automated login attempted.",
+        "seo": {
+          "title": "Sharm Gate",
+          "metaDescription": null,
+          "keywords": "Sharm El Sheikh,tours,activities,Egypt,snorkeling,diving,safari,travel,Red Sea,Sinai",
+          "ogImage": "https://sharmgate.net/og-image.jpg"
+        }
+      },
+      "signup": {
+        "url": "https://sharmgate.net/en/signup",
+        "type": "auth-register",
+        "result": "Page loads server-side and DOES render a registration form. Heading 'Create Account', subtext 'Sign up to start booking amazing experiences'. Fields: Full Name, Email Address, Phone Number, Password, Confirm Password. Submit button 'Create Account'. Footer link 'Already have an account? Sign In' -> /en/login. No redirect. No automated signup attempted.",
+        "seo": {
+          "title": "Sharm Gate",
+          "metaDescription": null,
+          "keywords": "Sharm El Sheikh,tours,activities,Egypt,snorkeling,diving,safari,travel,Red Sea,Sinai",
+          "ogImage": "https://sharmgate.net/og-image.jpg"
+        },
+        "formFields": [
+          "Full Name",
+          "Email Address",
+          "Phone Number",
+          "Password",
+          "Confirm Password"
+        ]
+      }
+    }
+  },
+  "summary": {
+    "sharm-el-sheikh": {
+      "categories": 30,
+      "tours": 72,
+      "travelGuide": 16
+    },
+    "hurghada": {
+      "categories": 6,
+      "tours": 24
+    }
+  }
+}

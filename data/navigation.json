@@ -1,0 +1,166 @@
+{
+  "site": "Sharm Gate",
+  "domain": "https://sharmgate.net",
+  "framework": "Next.js (App Router, SSR) hosted on Vercel; media on Firebase Storage",
+  "defaultLocale": "en",
+  "locales": ["en", "ar", "ru", "it", "fr", "de", "es", "pl", "tr"],
+  "localeUrlPattern": "https://sharmgate.net/{locale}/...",
+  "extractionLocale": "en",
+  "totals": {
+    "sitemapUrlsEn": 169,
+    "destinationsActive": 2,
+    "destinationsAnnounced": 3,
+    "categories": 36,
+    "tours": 96,
+    "travelGuidePages": 31,
+    "staticPages": 4,
+    "authPages": 2
+  },
+  "globalHeaderNav": [
+    { "label": "Home / Destination", "href": "/en/{destination}" },
+    { "label": "Activities", "href": "/en/{destination}/activities" },
+    { "label": "Bookings", "href": "/en/{destination}/bookings" },
+    { "label": "About", "href": "/en/{destination}/about" }
+  ],
+  "globalControls": ["Destination switcher (Sharm El Sheikh / Hurghada / Dahab)", "Language switcher (9 locales)", "Currency switcher (USD default)"],
+  "footer": {
+    "information": [
+      { "label": "Privacy policy", "href": "/en/privacy-policy" },
+      { "label": "Terms and conditions", "href": "#" }
+    ],
+    "services": [
+      { "label": "Bookings", "href": "/en/{destination}/bookings" },
+      { "label": "About Us", "href": "/en/{destination}/about" }
+    ],
+    "apps": {
+      "appStore": "https://apps.apple.com/eg/app/sharm-gate/id6468103979",
+      "googlePlay": "https://play.google.com/store/apps/details?id=com.sharmgate.tours"
+    },
+    "social": {
+      "instagram": "https://www.instagram.com/sharm.gate",
+      "facebook": "https://www.facebook.com/share/1FjksSSBNB/?mibextid=wwXIfr",
+      "whatsapp": "https://wa.me/201006110456",
+      "telegram": "https://t.me/+201006110456",
+      "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297555-d13113313-Reviews-Sharm_Gate-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+    },
+    "contactWhatsAppByLanguage": {
+      "en": "201006110456", "it": "201031719772", "tr": "201044003368",
+      "ru": "201008411023", "fr": "201009064198", "uk": "201008411023", "ar": "201006110456"
+    },
+    "copyright": "© 2025 Sharm Gate. All rights reserved."
+  },
+  "destinations": [
+    {
+      "slug": "sharm-el-sheikh",
+      "name": "Sharm El Sheikh",
+      "tagline": "Red Sea Paradise",
+      "url": "/en/sharm-el-sheikh",
+      "active": true,
+      "categoryCount": 30,
+      "tourCount": 72,
+      "travelGuideCount": 31
+    },
+    {
+      "slug": "hurghada",
+      "name": "Hurghada",
+      "tagline": "Sun & Sea Adventure",
+      "url": "/en/hurghada",
+      "active": true,
+      "categoryCount": 6,
+      "tourCount": 24,
+      "travelGuideCount": 0
+    },
+    {
+      "slug": "dahab",
+      "name": "Dahab",
+      "tagline": "Bohemian Beach Escape",
+      "url": "/en/dahab",
+      "active": false,
+      "note": "Announced on homepage destination chooser but has no category/tour/sitemap entries yet."
+    }
+  ],
+  "urlPatterns": {
+    "destinationHome": "/en/{destination}",
+    "activities": "/en/{destination}/activities",
+    "about": "/en/{destination}/about",
+    "bookings": "/en/{destination}/bookings",
+    "category": "/en/{destination}/category/{categorySlug}",
+    "tour": "/en/{destination}/tours/{tourSlug}",
+    "travelGuide": "/en/{destination}/info/{infoSlug}"
+  },
+  "staticPages": [
+    { "type": "activities", "url": "/en/sharm-el-sheikh/activities" },
+    { "type": "about", "url": "/en/sharm-el-sheikh/about" },
+    { "type": "bookings", "url": "/en/sharm-el-sheikh/bookings", "note": "Linked in nav/footer; not in sitemap (likely user-specific)" },
+    { "type": "privacy-policy", "url": "/en/privacy-policy" }
+  ],
+  "authPages": [
+    { "type": "login", "url": "/en/login", "status": "Requires authentication - not crawled (reported separately)" },
+    { "type": "signup", "url": "/en/signup", "status": "Requires authentication / account creation - not crawled (reported separately)" }
+  ],
+  "categories": {
+    "sharm-el-sheikh": [
+      "rixos-premium-seagate-excursions", "best-tours-and-excursions", "luxury-vip-experiences",
+      "snorkeling-sharm-el-sheikh", "pyramids-tours", "domina-coral-bay-excursions", "diving-tours",
+      "ras-mohammed-national-park-tours", "sheraton-sharm-el-sheikh-excursions", "family-tours-sharm-el-sheikh",
+      "museum-tours", "day-trips-sharm-el-sheikh", "best-nightlife-sharm-el-sheikh", "rixos-sharm-el-sheikh-excursions",
+      "white-island-tours", "boat-trips", "excursions", "historical-tours", "nightlife-parties", "rentals",
+      "transfers", "travel-guide", "wellness-spa", "turkish-hamam-spa", "quad-biking-atv-tours", "massage-spa",
+      "grand-rotana-resort-spa-excursions", "water-sports-activities-sharm-el-sheikh", "safari-tours-sharm-el-sheikh",
+      "cruises-boat-tours-sharm-el-sheikh"
+    ],
+    "hurghada": [
+      "wellness-spa", "excursions", "best-tours-and-excursions", "historical-tour", "boat-trips", "travel-guide"
+    ]
+  },
+  "tours": {
+    "sharm-el-sheikh": [
+      "aqua-park-excursion", "black-pearl-boat-trip", "buddha-bar-nightclub-party", "desert-buggy-camel-dinner-show",
+      "bus-stop-nightclub-party", "cairo-excursion-by-bus", "cairo-day-trip-by-plane", "salt-cave-with-sauna-massage-mask",
+      "dahab-excursion", "desert-buggy-bike-excursion", "desert-buggy-bike-sunrise-excursion", "desert-buggy-bike-sunset-excursion",
+      "desert-quad-bike-excursion", "desert-quad-bike-sunrise-excursion", "desert-quad-bike-sunset-excursion",
+      "dolphin-park-excursion", "electric-bike-rental", "electric-scooter-rental", "private-old-market-farsha-cafe-tour",
+      "extreme-adventure", "gopro-camera-rental", "grand-egyptian-museum-pyramids", "hard-rock-cafe-nightclub-party",
+      "horse-riding-adventure", "kalimera-beach-party", "la-dolce-vita-desert-party", "liberty-catamaran-excursion",
+      "luxor-day-trip-by-plane", "luxury-private-sunset-dinner-cruise", "marlin-caviar-beach-party", "massage-sauna-with-mask",
+      "mount-moses-excursion", "nunus-lounge-party", "petra-day-trip-by-ferry", "private-boat-trip", "private-glass-bottom-boat",
+      "private-speed-boat-trip-with-snorkeling", "desert-quad-bike-camel-dinner-show",
+      "ras-mohamed-and-white-island-diving-and-snorkeling-trip", "ras-mohamed-national-park-excursion-bus",
+      "ras-mohamed-white-island-snorkeling-tour", "ras-mohammed-white-island-elite-vip-boat-trip",
+      "ras-mohammed-white-island-engy-queen-yacht", "ras-mohammed-white-island-pirates-boat-trip",
+      "ras-mohammed-white-island-premium-boat-trip", "romantic-sunset-dinner-cruise", "turkish-hammam-with-foam-bath-massage",
+      "seascope-submarine-tour", "city-sightseeing-tour", "museum-tour", "nightlife-tour",
+      "soho-square-sharm-el-sheikh-night-tour", "space-nightclub-party", "st-catherine-monastery-excursion",
+      "swimming-with-dolphins", "taj-mahal-nightclub-party", "the-echo-temple-desert-party", "tiran-island-snorkeling-boat-trip",
+      "tiran-island-diving-and-snorkeling-trip", "farsha-cafe-transfer", "naama-bay-transfer", "old-market-transfer",
+      "airport-transfer", "cairo-transfer", "dahab-transfer", "soho-square-transfer", "salt-cave-sauna-steam",
+      "turkish-hammam-35-min-massage", "turkish-hammam-with-sauna-steam-foam-massage-mask", "vibe-night-club-party",
+      "water-sports-adventure", "wifi-router-rental"
+    ],
+    "hurghada": [
+      "cairo-pyramids-museum-tour", "grand-egyptian-museum-pyramid", "desert-quad-bike-safari-camel-ride-dinner-bedouin-show",
+      "dolphin-house-snorkeling-boat-trip-hurghada", "dolphin-world-show-with-walrus", "grand-aquarium-entry-ticket",
+      "heaven-turkish-hammam-spa-full-body-massage-beauty-salon", "hula-hula-island-snorkeling-boat-trip",
+      "luxor-day-tour-valley-of-the-kings", "mahmya-island-full-day-snorkeling-boat-trip",
+      "morning-desert-quad-bike-safari-with-camel-ride-bedouin-camp", "nefertari-snorkeling-cruise-with-submarine",
+      "orange-bay-island-elite-vip-snorkeling-boat-trip", "orange-bay-island-pirates-sailing-boat-trip",
+      "orange-bay-island-snorkeling-boat-trip", "panorama-semi-submarine-sea-trip", "paradise-island-snorkeling-boat-trip",
+      "private-glass-bottom-boat-with-snorkeling", "spa-60min-full-body-massage-salt-cave",
+      "royal-turkish-hammam-spa-full-body-massage-salt-cave", "sea-scope-submarine-boat-experience",
+      "sunset-desert-quad-bike-safari-with-camel-ride-bedouin-camp", "turkish-hammam-spa-45min-full-body-massage-foam-bath",
+      "turkish-hammam-spa-sauna-steam-foam-massage"
+    ]
+  },
+  "travelGuide": {
+    "sharm-el-sheikh": [
+      "al-kheima-beach", "allora-beach", "basata-cafe-sharm-el-sheikh", "el-fanar-beach", "el-masrien-restaurant",
+      "fares-sea-food-restaurant", "farsha-beach", "genena-city-sharm-el-sheikh", "il-mercato-sharm-el-sheikh",
+      "kanabesh-beach", "king-tut-museum-sharm-el-sheikh", "mahony-sea-food-restaurant", "marlin-and-caviar",
+      "museum-sharm-el-sheikh", "mustafa-mosque-sharm-el-sheikh-best-time-to-visit-2000", "naama-bay-sharm-el-sheikh",
+      "nabq-national-park", "old-market-sharm-el-sheikh", "ottoman-restaurant", "palma-beach",
+      "peace-square-sharm-el-sheikh", "pizza-melodies-italian-restaurant", "ras-mohamed-national-park",
+      "sahaba-mosque-sharm-el-sheikh", "sharks-bay-beach", "soho-square-sharm-el-sheikh", "taksim-turksh-restaurant",
+      "terrazzina-beach", "the-heavenly-cathedral-sharm-el-sheikh", "tiran-island-sharm-el-sheikh", "wild-west"
+    ]
+  }
+}
